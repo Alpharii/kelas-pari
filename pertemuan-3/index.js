@@ -4,8 +4,14 @@ let nama = "kalam"
 
 // ["k", "a", "l", "a", "m"]
 
+
+// for(let i=0; i < nama.length; i++){
+//     console.log("looping ke", i)
+//     console.log("huruf ke", i+1, ": ", nama[i])
+// }
+
 // for(let i=0; i < 5; i++){
-//     console.log('i', nama)
+//     console.log('i', i)
 // }
 
 // console.log(nama.length)
@@ -14,18 +20,25 @@ let nama = "kalam"
 //     console.log(nama[i])
 // }
 
-// let arr = [["abc", "def"], ["hij", "klm"], ['zzz', 'yyy', 'xxx', '091']]
+let arr = [["abc", "def"], ["hij", "klm"], ['zzz', 'yyy', 'xxx', '091']]
+// console.log('array', arr[2][2][1])
 // console.log('arr', arr[0][0][0])
+
 
 // console.log('data', arr)
 
-// for(let i=0; i < arr.length; i++){
-//     console.log('arr ke:', i)
-//     console.log('loop dimensi 1', arr[i])
-//     for (let j = 0; j < arr[i].length; j++) {
-//         console.log('arr(i) ke : ', j)
-//         console.log('loop dimensi ke 2', arr[i][j])
+// let temp = ""
+// for(let i=0; i<arr.length; i++){
+//     for(let j=0; j<arr[i].length; j++){
+//         console.log("temp sekarang =", temp)
+//         console.log("yang ditambah ke temp =", arr[i][j])
+//         temp += arr[i][j]
 //     }
+// }
+// console.log(temp)
+
+
+
 // }
 
 
@@ -33,9 +46,7 @@ let nama = "kalam"
 
 // kumpulan data bisa String, number, object atau array lagi
 // selalu dimulai dari index ke 0
-
-
-// let count = 1;
+let count = 1;
 
 // while(count <= 3){
 //     console.log("Hitung: " + count);
@@ -47,25 +58,30 @@ let nama = "kalam"
 // while(isTrue === true){
 //     console.log("Hitung: " + count);
 //     count++;
-//     if(abc){
+//     if(count ===3){
 //         isTrue = false
+//         break
 //     }
 // }
 
-// const lists = ["1", "2", "3"]
+let lists = ["1", "2", "3"]
 
-// lists.push(4)
+lists.push(4)
 
-// console.log(lists)
+console.log(lists)
 
-// lists.pop()
+lists.pop()
 
-// console.log(lists)
+console.log(lists)
 
+lists = lists.join("+")
+console.log(lists)
+lists = lists.split("+")
+console.log(lists)
 
-// console.log(lists.join(","))
-
-// console.log(nama.split(''))
+let names = "Muhammad Rayhan Kalam"
+let arrName = names.split(" ")
+console.log(arrName)
 
 // let namaAsal = "abcabcabc"
 

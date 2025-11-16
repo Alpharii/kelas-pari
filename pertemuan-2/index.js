@@ -1,11 +1,10 @@
 // let temp = ""
-// if(true){
-//     let nama = "bintang"
-// }
+if(true){
+    let nama = "bintang" 
+}
 
-// console.log(nama)
 
-let input = 2
+let input = 5
 
 // && > AND
 // || > OR
@@ -27,13 +26,15 @@ if(input > 0 || input % 2 === 0){
 
 let str = "abc"
 
-str += "abc"
+str += "aba"
+
+console.log(str)
 
 const length = str.length
 console.log('panjang str= ' + length )
-const hurufPertama = str[5]
+const hurufPertama = str[str.length - 1]
 
-console.log(hurufPertama)
+console.log("huruf pertama",hurufPertama)
 
 console.log(str)
 
@@ -45,6 +46,10 @@ if(str === "abcaba"){
 let angka = 12345
 
 angka = String(angka)
+
+const num = 10
+
+console.log((num + "").l)
 
 const angkalen = angka.length
 console.log(angka.length)
