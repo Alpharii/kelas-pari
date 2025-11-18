@@ -3,7 +3,7 @@
 1. Inisialisasi Project
 
 ```bash
-npm init -y
+npm init -yc
 ```
 
 2. Install Dependensi
